@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Programming Concepts Quiz</string>
+    <string name="question1">Using valid syntax in a way that is unexpected to the programmer is an example of what kind of error?</string>
+    <string name="q1o1">logic error</string>
+    <string name="q1o2">syntax error</string>
+    <string name="q1o3">semantic error</string>
+    <string name="q1o4">run time error</string>
+    <string name="question2">In some languages, variables have types. Which of the following are valid data types?</string>
+    <string name="q2o1">characters</string>
+    <string name="q2o2">integer</string>
+    <string name="q2o3">boolean</string>
+    <string name="q2o4">float</string>
+    <string name="question3">Name one boolean operator (excluding exclusive or (XOR)).</string>
+    <string name="q3o1">enter your answer here</string>
+    <string name="question4">Which one of the following is not a valid comparison operator?</string>
+    <string name="q4o1">==</string>
+    <string name="q4o2"> &lt;= </string>
+    <string name="q4o3">!=</string>
+    <string name="q4o4">&gt;&gt;</string>
+    <string name="submit">Score only</string>
+    <string name="submit2">Score and Explanation</string>
+    <string name="score_message">You scored %1$s point(s)!</string>
+    <string name="low_score">Better luck next time!</string>
+    <string name="high_score">Good job!</string>
+    <string name="q3a"><u>and, or, not</u></string>
+    <string name="q1_explanation">Logic errors result in unintended output or behavior.\nSyntax errors are errors that violate the syntax rules of the programming language.\nRuntime errors are errors that occur while the program is running.</string>
+    <string name="q2_explanation">Character (char) is a valid type, but characters can be stored using arrays or strings.\nInteger (int), boolean, and float are all valid data types in Java. </string>
+    <string name="q3_explanation">Boolean operators are used in boolean expressions which evaluate to true or false.\nAnd will evaluate to true if all parts of the expression are true.\nOr will evaluate to true if at least one part of the expression is true.\nNot will make a true expression evaluate to false and vice versa.</string>
+    <string name="q4_explanation">&gt;&gt; is the bitwise right shift operator. Shifting bits has nothing to do with comparisons.</string>
+</resources>

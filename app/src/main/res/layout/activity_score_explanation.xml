@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/edge_margin"
+    tools:context="com.example.android.programmingconceptsquiz.ScoreExplanationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/score_display"
+            style="@style/TextRelated"
+            android:textSize="@dimen/scoreMessageSize"
+            android:textColor="@color/notQuestionText"/>
+
+        <TextView
+            style="@style/TextRelated"
+            android:text="@string/question1" />
+
+        <RadioButton
+            style="@style/Button"
+            android:checked="true"
+            android:text="@string/q1o3" />
+
+        <TextView
+            style="@style/TextRelated"
+            android:text="@string/q1_explanation"
+            android:textColor="@color/notQuestionText" />
+
+        <TextView
+            style="@style/TextRelated"
+            android:text="@string/question2" />
+
+        <CheckBox
+            style="@style/Button"
+            android:checked="true"
+            android:text="@string/q2o2" />
+
+        <CheckBox
+            style="@style/Button"
+            android:checked="true"
+            android:text="@string/q2o3" />
+
+        <CheckBox
+            style="@style/Button"
+            android:checked="true"
+            android:text="@string/q2o4" />
+
+        <TextView
+            style="@style/TextRelated"
+            android:text="@string/q2_explanation"
+            android:textColor="@color/notQuestionText" />
+
+        <TextView
+            style="@style/TextRelated"
+            android:text="@string/question3" />
+
+        <TextView
+            style="@style/TextRelated"
+            android:text="@string/q3a"
+            android:textColor="@color/notQuestionText"
+            android:textSize="@dimen/editTextResponseSize" />
+
+        <TextView
+            style="@style/TextRelated"
+            android:text="@string/q3_explanation"
+            android:textColor="@color/notQuestionText" />
+
+        <TextView
+            style="@style/TextRelated"
+            android:text="@string/question4" />
+
+        <RadioButton
+            style="@style/Button"
+            android:checked="true"
+            android:text="@string/q4o4" />
+
+        <TextView
+            style="@style/TextRelated"
+            android:text="@string/q4_explanation"
+            android:textColor="@color/notQuestionText" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="edge_margin">16dp</dimen>
+    <dimen name="space_margin">8dp</dimen>
+    <dimen name="scoreMessageSize">34sp</dimen>
+    <dimen name="editTextResponseSize">24sp</dimen>
+
+</resources>
