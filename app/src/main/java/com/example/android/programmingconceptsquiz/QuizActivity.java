@@ -9,15 +9,25 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class QuizActivity extends AppCompatActivity {
 
     int score = 0;
+    @BindView(R.id.q1o3)
     RadioButton q1a;
+    @BindView(R.id.q2o1)
     CheckBox q2o1;
+    @BindView(R.id.q2o2)
     CheckBox q2o2;
+    @BindView(R.id.q2o3)
     CheckBox q2o3;
+    @BindView(R.id.q2o4)
     CheckBox q2o4;
+    @BindView(R.id.q3o1)
     EditText q3a1;
+    @BindView(R.id.q4o4)
     RadioButton q4a;
     String stringScore = "0";
 
@@ -25,14 +35,7 @@ public class QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
-
-        q1a = findViewById(R.id.q1o3);
-        q2o1 = findViewById(R.id.q2o1);
-        q2o2 = findViewById(R.id.q2o2);
-        q2o3 = findViewById(R.id.q2o3);
-        q2o4 = findViewById(R.id.q2o4);
-        q3a1 = findViewById(R.id.q3o1);
-        q4a = findViewById(R.id.q4o4);
+        ButterKnife.bind(this);
     }
 
     public void calculateScore(){
